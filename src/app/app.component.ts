@@ -11,7 +11,7 @@ export class AppComponent {
 
   constructor(private authService: AuthenticationService) {}
 
-  private isAuth(): boolean {
+  public isAuth(): boolean {
     return this.authService.isAuth();
   }
 
