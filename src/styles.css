@@ -1,1 +1,66 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+.index-background {
+  background: url(assets/background3.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.block-background {
+  background: rgba(177, 175, 168, 0.5); /* Цвет фона */
+  color: #fff; /* Цвет текста */
+  padding: 5px; /* Поля вокруг текста */
+  border-radius: 10px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.block-link a {
+  display: block; /* Ссылка как блочный элемент */
+  height: 100%; /* Высота на весь слой */
+  /*color: #666; !* Цвет ссылки *!*/
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.block-sms {
+  height: 500px;
+  width: 100%;
+  overflow: scroll;
+  word-break: break-all;
+  overflow-x: hidden;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-white:hover {
+  color: white;
+}
+
+.text-white:visited {
+  color: white;
+}
+
+.block-message-content-auth {
+
+}
+
+.block-message-content-recipient {
+
+}
+
+
+.is-active {
+  color: red;
+}
