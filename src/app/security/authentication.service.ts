@@ -16,7 +16,7 @@ import {UserDto} from '../user/dto/user.dto';
 @Injectable()
 export class AuthenticationService {
 
-  private authUrl = serverUrl + 'auth';
+  private authUrl = serverUrl + 'auth/admin';
 
   private adminUserLocalStorageName = 'admin-auth';
 
